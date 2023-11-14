@@ -7,7 +7,7 @@ body {
   margin: 20px;
   padding: 20px;
   border: 1px solid #ccc;
-  background-color: #f8f8f8;
+  background-color: gray;
 }
 
 h2 {
@@ -15,4 +15,22 @@ h2 {
   margin-bottom: 10px;
 }
 
+li {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  max-width: 150px;
+}
 
+.genero {
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+body {
+  background-color: black;
+}
+
+h1 {
+  color: gray;
+}
